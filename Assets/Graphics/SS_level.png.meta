@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: 2991bec0d9a11b447ba9828daa886792
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hill2
+    21300002: BrickBrown
+    21300004: SS_level_2
+    21300006: SS_level_3
+    21300008: SS_level_4
+    21300010: SS_level_5
+    21300012: Mushroom1
+    21300014: SS_level_7
+    21300016: Hill1
+    21300018: SS_level_9
+    21300020: SS_level_10
+    21300022: SS_level_11
+    21300024: SS_level_12
+    21300026: SS_level_13
+    21300028: SS_level_14
+    21300030: SS_level_15
+    21300032: SS_level_16
+    21300034: SS_level_17
+    21300036: Cloud1
+    21300038: Cloud2
+    21300040: Cloud3
+    21300042: SS_level_21
+    21300044: SS_level_22
+    21300046: SS_level_23
+    21300048: SS_level_24
+    21300050: SS_level_25
+    21300052: SS_level_26
+    21300054: SS_level_27
+    21300056: SS_level_28
+    21300058: SS_level_29
+    21300060: Shrub1
+    21300062: Shrub2
+    21300064: Shrub3
+    21300066: SS_level_33
+    21300068: SS_level_34
+    21300070: SS_level_35
+    21300072: SS_level_36
+    21300074: SS_level_37
+    21300076: SS_level_38
+    21300078: SS_level_39
+    21300080: SS_level_40
+    21300082: SS_level_41
+    21300084: FloorBrown
+    21300086: SS_level_43
+    21300088: SS_level_44
+    21300090: SS_level_45
+    21300092: SS_level_46
+    21300094: BlockBrown
+    21300096: SS_level_48
+    21300098: SS_level_49
+    21300100: Coin1
+    21300102: SS_level_51
+    21300104: SS_level_52
+    21300106: SS_level_53
+    21300108: CoinBox1
+    21300110: CoinBox2
+    21300112: CoinBox3
+    21300114: Coin2
+    21300116: Coin3
+    21300118: SS_level_59
+    21300120: SS_level_60
+    21300122: SS_level_61
+    21300124: SS_level_62
+    21300126: SS_level_63
+    21300128: MovingPlatform
+    21300130: SS_level_65
+    21300132: SS_level_66
+    21300134: Trampoline3
+    21300136: Trampoline1
+    21300138: Trampoline2
+    21300140: Castle
+    21300142: SS_level_71
+    21300144: SS_level_72
+    21300146: BackgroundBlue
+    21300148: SS_level_74
+    21300150: SS_level_75
+    21300152: SS_level_76
+    21300154: SS_level_77
+    21300156: Goomba1
+    21300158: Goomba2
+    21300160: Goomba3
+    21300162: SS_level_81
+    21300164: SS_level_82
+    21300166: SS_level_83
+    21300168: SS_level_84
+    21300170: Flame1
+    21300172: Flame2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hill2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 463
+        width: 80
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BrickBrown
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_4
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 488
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mushroom1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 481
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hill1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 463
+        width: 48
+        height: 19
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 478
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_10
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_12
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_13
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 468
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_16
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 436
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 436
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cloud3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 436
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_23
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_24
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_25
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_26
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_28
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_29
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 439
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shrub1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 411
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shrub2
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 411
+        width: 64
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shrub3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 411
+        width: 48
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_33
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 424
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 424
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_35
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 424
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_36
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 421
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_37
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 421
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_38
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 421
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 421
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_40
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 358
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_41
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 358
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FloorBrown
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 403
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_43
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_44
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 358
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_46
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 358
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlockBrown
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_48
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_49
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Coin1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 366
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_51
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 384
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_52
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 384
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_53
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 384
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinBox1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinBox2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinBox3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 367
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Coin2
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 366
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Coin3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 366
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_59
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 371
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_60
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 371
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_61
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 371
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_62
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 284
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 284
+        width: 32
+        height: 64
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: MovingPlatform
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 336
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_65
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 284
+        width: 32
+        height: 48
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 284
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trampoline3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 291
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trampoline1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 291
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Trampoline2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 291
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Castle
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 191
+        width: 80
+        height: 80
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_71
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 194
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_72
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 88
+        width: 24
+        height: 168
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundBlue
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 141
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_74
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 141
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_75
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 141
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_76
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 107
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_77
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 107
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Goomba1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 74
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Goomba2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 74
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Goomba3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 75
+        width: 16
+        height: 8
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_81
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_82
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_83
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_level_84
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flame1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 14
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Flame2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 14
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

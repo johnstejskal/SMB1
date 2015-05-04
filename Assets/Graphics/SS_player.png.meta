@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: c4f5bac489c449042b1324d08d6c3dc5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SS_player_run
+    21300002: marioSmall_stand
+    21300004: marioSmall_run1
+    21300006: marioSmall_run2
+    21300008: marioSmall_run3
+    21300010: marioSmall_turn
+    21300012: marioSmall_jump
+    21300014: mario_die
+    21300016: SS_player_7
+    21300018: SS_player_8
+    21300020: SS_player_9
+    21300022: SS_player_10
+    21300024: marioSmall_climb1
+    21300026: marioSmall_climb2
+    21300028: marioBig_stand
+    21300030: marioBig_run1
+    21300032: marioBig_run2
+    21300034: marioBig_run3
+    21300036: marioBig_turn
+    21300038: marioBig_jump
+    21300040: marioBig_crouch
+    21300042: SS_player_20
+    21300044: SS_player_21
+    21300046: SS_player_22
+    21300048: SS_player_23
+    21300050: SS_player_24
+    21300052: SS_player_25
+    21300054: marioBig_climb1
+    21300056: marioBig_climb2
+    21300058: marioFire_stand
+    21300060: marioFire_run1
+    21300062: marioFire_run2
+    21300064: marioFire_run3
+    21300066: marioFire_throw
+    21300068: marioFire_turn
+    21300070: marioFire_jump
+    21300072: marioFire_crouch
+    21300074: SS_player_36
+    21300076: SS_player_37
+    21300078: SS_player_38
+    21300080: SS_player_39
+    21300082: SS_player_40
+    21300084: SS_player_41
+    21300086: marioFire_climb1
+    21300088: marioFire_climb2
+    21300090: SS_player_44
+    21300092: SS_player_45
+    21300094: SS_player_46
+    21300096: SS_player_47
+    21300098: SS_player_48
+    21300100: SS_player_49
+    21300102: SS_player_50
+    21300104: SS_player_51
+    21300106: SS_player_52
+    21300108: SS_player_53
+    21300110: SS_player_54
+    21300112: SS_player_55
+    21300114: SS_player_56
+    21300116: SS_player_57
+    21300118: SS_player_58
+    21300120: SS_player_59
+    21300122: SS_player_60
+    21300124: SS_player_61
+    21300126: SS_player_62
+    21300128: SS_player_63
+    21300130: SS_player_64
+    21300132: SS_player_65
+    21300134: SS_player_66
+    21300136: SS_player_67
+    21300138: SS_player_68
+    21300140: SS_player_69
+    21300142: SS_player_70
+    21300144: SS_player_71
+    21300146: SS_player_72
+    21300148: SS_player_73
+    21300150: SS_player_74
+    21300152: SS_player_75
+    21300154: SS_player_76
+    21300156: SS_player_77
+    21300158: SS_player_78
+    21300160: SS_player_79
+    21300162: SS_player_80
+    21300164: SS_player_81
+    21300166: SS_player_82
+    21300168: SS_player_83
+    21300170: SS_player_84
+    21300172: SS_player_85
+    21300174: SS_player_86
+    21300176: SS_player_87
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: marioSmall_stand
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 496
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_run1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 497
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_run2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 496
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_run3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 496
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_turn
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 496
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_jump
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 496
+        width: 17
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario_die
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 482
+        width: 15
+        height: 14
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 467
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 467
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 467
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 467
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_climb1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 467
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioSmall_climb2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 466
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_stand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_run1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 428
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_run2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 429
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_run3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 429
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_turn
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 428
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_jump
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 428
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_crouch
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 433
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_21
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 395
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_22
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 395
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_23
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 394
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 394
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 394
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_climb1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 396
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioBig_climb2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 394
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_stand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_run1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 358
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_run2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 359
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_run3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 359
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_throw
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 359
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_turn
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 358
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_jump
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 358
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_crouch
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 363
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_37
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 325
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_38
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 325
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_39
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 324
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_40
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 324
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SS_player_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 324
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_climb1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 326
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: marioFire_climb2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 324
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
