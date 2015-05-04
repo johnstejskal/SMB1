@@ -2,7 +2,13 @@
 using System.Collections;
 
 public class Mario1Controller2DScript : MonoBehaviour {
-	
+
+	public const string DIRECTION_RIGHT = "right";
+	public const string DIRECTION_LEFT = "left";
+
+	public LayerMask GroundLayer;
+	float groundedRadius = .1f;		// Radius of the overlap circle to determine if grounded
+
 	//Movement related variables
 	public float moveSpeed;  //Our general move speed. This is effected by our
 	//InputManager > Horizontal button's Gravity and Sensitivity
@@ -12,7 +18,9 @@ public class Mario1Controller2DScript : MonoBehaviour {
 	public float sprintDelay;        //How long until our sprint kicks in
 	private float sprintTimer;       //Used in calculating the sprint delay
 	private bool jumpedDuringSprint; //Used to see if we jumped during our sprint
-	
+	float hSpeed = 0;
+	bool facingRight = true;
+
 	//Jump related variables
 	public float initialJumpForce;       //How much force to give to our initial jump
 	public float extraJumpForce;         //How much extra force to give to our jump when the button is held down
@@ -22,13 +30,53 @@ public class Mario1Controller2DScript : MonoBehaviour {
 	private bool playerJumped;           //Tell us if the player has jumped
 	private bool playerJumping;          //Tell us if the player is holding down the jump button
 	public Transform groundChecker;      //Gameobject required, placed where you wish "ground" to be detected from
+
+	Transform m_GroundCheckL;	
+	Transform m_GroundCheckR;	
+	Animator m_Animator;
+	Rigidbody2D m_rigidbody2D;
+
+	void Start()
+	{
+
+		m_GroundCheckL = transform.FindChild("GroundCheckL");
+		m_GroundCheckR = transform.FindChild("GroundCheckR");	
+		m_rigidbody2D = GetComponent<Rigidbody2D> ();
+		m_Animator = GetComponent<Animator>();
+	}
 	private bool isGrounded;             //Check to see if we are grounded
 	
 	void Update () {
 		//Casts a line between our ground checker gameobject and our player
 		//If the floor is between us and the groundchecker, this makes "isGrounded" true
-		isGrounded = Physics2D.Linecast(transform.position, groundChecker.position, 1 << LayerMask.NameToLayer("Ground"));
+		if (Physics2D.Linecast (transform.position, m_GroundCheckL.position, 1 << LayerMask.NameToLayer ("Ground")) ||
+			Physics2D.Linecast (transform.position, m_GroundCheckR.position, 1 << LayerMask.NameToLayer ("Ground"))) {
+			isGrounded = true;
+		} else
+			isGrounded = false;
+		/*
+		if (Physics2D.OverlapCircle (m_GroundCheckL.position, groundedRadius, GroundLayer) || Physics2D.OverlapCircle (m_GroundCheckR.position, groundedRadius, GroundLayer) && m_rigidbody2D.velocity.y <= 0) {
+			isGrounded = true;
+		} else if (m_rigidbody2D.velocity.y > 0) {
+			isGrounded = false;
+			
+		}
+*/
+		Debug.Log ("isGrounded:"+isGrounded);
 
+		hSpeed = Input.GetAxis("Horizontal");
+
+		m_Animator.SetFloat ("Speed", Mathf.Abs (hSpeed));
+		m_Animator.SetBool ("IsGrounded", isGrounded);
+
+
+		//flip player dependant on direction
+		if(hSpeed > 0 && !facingRight)
+			Flip();
+		else if(hSpeed < 0 && facingRight)
+			Flip();
+		
+		m_Animator.SetFloat ("VelocityY", m_rigidbody2D.velocity.y);
 
 
 		//If our player hit the jump key, then it's true that we jumped!
@@ -50,13 +98,24 @@ public class Mario1Controller2DScript : MonoBehaviour {
 			jumpedDuringSprint = false;  //... change Jumped During Sprint to false, as we lost momentum
 		}
 	}
-	
+	void Flip ()
+	{
+		// Switch the way the player is labelled as facing.
+		facingRight = !facingRight;
+		
+		// Multiply the player's x local scale by -1.
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
+	}
 	void FixedUpdate (){
 
-
+		if (Input.GetButton ("Sprint")) {
+			Debug.Log("Sprinting");
+		}
 		//If our player is holding the sprint button, we've held down the button for a while, and we're grounded...
 		//OR our player jumped while we were already sprinting...
-		/*if (Input.GetButton("Sprint") && Time.time - sprintTimer > sprintDelay && isGrounded || jumpedDuringSprint){
+		if (Input.GetButton("Sprint") && Time.time - sprintTimer > sprintDelay && isGrounded || jumpedDuringSprint){
 			//... then sprint
 			GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * sprintMultiplier,GetComponent<Rigidbody2D>().velocity.y);
 			
@@ -72,9 +131,9 @@ public class Mario1Controller2DScript : MonoBehaviour {
 		else{
 			//If we're not sprinting, then give us our general momentum
 			GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime,GetComponent<Rigidbody2D>().velocity.y);
-		}*/
+		}
 
-		GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime,GetComponent<Rigidbody2D>().velocity.y);
+		//GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime,GetComponent<Rigidbody2D>().velocity.y);
 
 		//If our player pressed the jump key...
 		if (playerJumped){
