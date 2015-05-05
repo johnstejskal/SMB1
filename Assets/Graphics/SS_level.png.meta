@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: 2991bec0d9a11b447ba9828daa886792
+timeCreated: 1430825897
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Hill2
@@ -16,10 +18,10 @@ TextureImporter:
     21300022: SS_level_11
     21300024: SS_level_12
     21300026: SS_level_13
-    21300028: SS_level_14
-    21300030: SS_level_15
-    21300032: SS_level_16
-    21300034: SS_level_17
+    21300028: Flower1
+    21300030: Flower2
+    21300032: Flower3
+    21300034: Flower4
     21300036: Cloud1
     21300038: Cloud2
     21300040: Cloud3
@@ -38,10 +40,10 @@ TextureImporter:
     21300066: SS_level_33
     21300068: SS_level_34
     21300070: SS_level_35
-    21300072: SS_level_36
-    21300074: SS_level_37
-    21300076: SS_level_38
-    21300078: SS_level_39
+    21300072: Star1
+    21300074: Star2
+    21300076: Star3
+    21300078: Star4
     21300080: SS_level_40
     21300082: SS_level_41
     21300084: FloorBrown
@@ -64,17 +66,17 @@ TextureImporter:
     21300118: SS_level_59
     21300120: SS_level_60
     21300122: SS_level_61
-    21300124: SS_level_62
-    21300126: SS_level_63
+    21300124: PipeEnd
+    21300126: PipeBig
     21300128: MovingPlatform
-    21300130: SS_level_65
-    21300132: SS_level_66
+    21300130: PipeMedium
+    21300132: PipeSmall
     21300134: Trampoline3
     21300136: Trampoline1
     21300138: Trampoline2
     21300140: Castle
     21300142: SS_level_71
-    21300144: SS_level_72
+    21300144: FlagPole
     21300146: BackgroundBlue
     21300148: SS_level_74
     21300150: SS_level_75
@@ -107,6 +109,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 512
@@ -117,6 +122,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -270,7 +276,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_14
+    - name: Flower1
       rect:
         serializedVersion: 2
         x: 289
@@ -280,7 +286,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_15
+    - name: Flower2
       rect:
         serializedVersion: 2
         x: 308
@@ -290,7 +296,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_16
+    - name: Flower3
       rect:
         serializedVersion: 2
         x: 327
@@ -300,7 +306,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_17
+    - name: Flower4
       rect:
         serializedVersion: 2
         x: 346
@@ -490,7 +496,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_36
+    - name: Star1
       rect:
         serializedVersion: 2
         x: 290
@@ -500,7 +506,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_37
+    - name: Star2
       rect:
         serializedVersion: 2
         x: 309
@@ -510,7 +516,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_38
+    - name: Star3
       rect:
         serializedVersion: 2
         x: 328
@@ -520,7 +526,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_39
+    - name: Star4
       rect:
         serializedVersion: 2
         x: 347
@@ -750,7 +756,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_62
+    - name: PipeEnd
       rect:
         serializedVersion: 2
         x: 7
@@ -760,7 +766,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_63
+    - name: PipeBig
       rect:
         serializedVersion: 2
         x: 81
@@ -780,7 +786,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_65
+    - name: PipeMedium
       rect:
         serializedVersion: 2
         x: 122
@@ -790,7 +796,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_66
+    - name: PipeSmall
       rect:
         serializedVersion: 2
         x: 160
@@ -850,7 +856,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_72
+    - name: FlagPole
       rect:
         serializedVersion: 2
         x: 133
@@ -1002,3 +1008,5 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
