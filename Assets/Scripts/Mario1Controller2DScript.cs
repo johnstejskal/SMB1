@@ -62,6 +62,7 @@ public class Mario1Controller2DScript : MonoBehaviour {
 			
 		}
 */
+
 		Debug.Log ("isGrounded:"+isGrounded);
 
 		hSpeed = Input.GetAxis("Horizontal");
@@ -84,7 +85,7 @@ public class Mario1Controller2DScript : MonoBehaviour {
 			playerJumped = true;   //Our player jumped!
 			playerJumping = true;  //Our player is jumping!
 			jumpTimer = Time.time; //Set the time at which we jumped
-			Debug.Log ("JUMPED" + isGrounded);
+
 		}
 		
 		//If our player lets go of the Jump button OR if our jump was held down to the maximum amount...
@@ -111,14 +112,14 @@ public class Mario1Controller2DScript : MonoBehaviour {
 	void FixedUpdate (){
 
 		if (Input.GetButton ("Sprint")) {
-			Debug.Log("Sprinting");
+
 		}
 		//If our player is holding the sprint button, we've held down the button for a while, and we're grounded...
 		//OR our player jumped while we were already sprinting...
 		if (Input.GetButton("Sprint") && Time.time - sprintTimer > sprintDelay && isGrounded || jumpedDuringSprint){
 			//... then sprint
 			GetComponent<Rigidbody2D>().velocity = new Vector2(Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime * sprintMultiplier,GetComponent<Rigidbody2D>().velocity.y);
-			
+
 			//If our player jumped during our sprint...
 			if (playerJumped){
 				jumpedDuringSprint = true; //... tell the game that we jumped during our sprint!
@@ -144,6 +145,20 @@ public class Mario1Controller2DScript : MonoBehaviour {
 		//If our player is holding the jump button and a little bit of time has passed...
 		if (playerJumping && Time.time - jumpTimer > delayToExtraJumpForce){
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0,extraJumpForce)); //... then add some additional force to the jump
+		}
+	}
+
+	public void addDownForce(int force)
+	{
+		m_rigidbody2D.AddForce(new Vector2(0, force));
+	}
+
+	void OnCollisionEnter2D(Collision2D coll)
+	{
+		
+		if (coll.gameObject.tag == "Enemy") {
+			if(transform.position.y > coll.transform.position.y)
+			m_rigidbody2D.AddForce(new Vector2(0, 800));
 		}
 	}
 }

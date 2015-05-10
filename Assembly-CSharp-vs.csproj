@@ -50,9 +50,12 @@
      <Compile Include="Assets\Scripts\CameraControl.cs" />
      <Compile Include="Assets\Scripts\CameraResize.cs" />
      <Compile Include="Assets\Scripts\CharacterController2D.cs" />
+     <Compile Include="Assets\Scripts\Goomba.cs" />
      <Compile Include="Assets\Scripts\JumpPhysics.cs" />
      <Compile Include="Assets\Scripts\JumpPhysics2D.cs" />
      <Compile Include="Assets\Scripts\Mario1Controller2DScript.cs" />
+     <Compile Include="Assets\Scripts\Mushroom.cs" />
+     <Compile Include="Assets\Scripts\MysteryBox.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\PlayerInputController.cs" />
      <Compile Include="Assets\Scripts\SmoothFollow.cs" />

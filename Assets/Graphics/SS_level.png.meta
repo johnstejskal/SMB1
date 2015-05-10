@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2991bec0d9a11b447ba9828daa886792
-timeCreated: 1430825897
+timeCreated: 1431258767
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -25,7 +25,7 @@ TextureImporter:
     21300036: Cloud1
     21300038: Cloud2
     21300040: Cloud3
-    21300042: SS_level_21
+    21300042: EmptyBox
     21300044: SS_level_22
     21300046: SS_level_23
     21300048: SS_level_24
@@ -55,9 +55,9 @@ TextureImporter:
     21300096: SS_level_48
     21300098: SS_level_49
     21300100: Coin1
-    21300102: SS_level_51
-    21300104: SS_level_52
-    21300106: SS_level_53
+    21300102: CoinBoxCoin2
+    21300104: CoinBoxCoin3
+    21300106: CoinBoxCoin4
     21300108: CoinBox1
     21300110: CoinBox2
     21300112: CoinBox3
@@ -91,6 +91,7 @@ TextureImporter:
     21300168: SS_level_84
     21300170: Flame1
     21300172: Flame2
+    21300174: CoinBoxCoin1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -346,7 +347,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_21
+    - name: EmptyBox
       rect:
         serializedVersion: 2
         x: 183
@@ -646,7 +647,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_51
+    - name: CoinBoxCoin2
       rect:
         serializedVersion: 2
         x: 250
@@ -656,7 +657,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_52
+    - name: CoinBoxCoin3
       rect:
         serializedVersion: 2
         x: 258
@@ -666,7 +667,7 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SS_level_53
+    - name: CoinBoxCoin4
       rect:
         serializedVersion: 2
         x: 271
@@ -1003,6 +1004,16 @@ TextureImporter:
         y: 14
         width: 24
         height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CoinBoxCoin1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 384
+        width: 1
+        height: 14
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
