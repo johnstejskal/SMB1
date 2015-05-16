@@ -63,7 +63,70 @@ public class Mario1Controller2DScript : MonoBehaviour {
 		}
 */
 
-		Debug.Log ("isGrounded:"+isGrounded);
+
+			//Deal with slopes, baby!
+			
+			//Using raycast with layer mask to find ground beneath
+		RaycastHit2D hit = Physics2D.Raycast(m_GroundCheckL.position, -Vector2.up, 1);
+
+		Debug.Log ("RAY HIT:"+Mathf.Abs(hit.normal.x));
+		//if ( isGrounded){
+			if ( hit && Mathf.Abs(hit.normal.x) > 0.1f ) {
+
+
+				//Apply the opposite force against the slope force 
+				//Reduce normal factor by 0.6 to deal with surface's friction
+				//m_rigidbody2D.velocity.x -= hit.normal.x * 0.6;
+				//m_rigidbody2D.velocity = new Vector2(m_rigidbody2D.velocity.x - hit.normal.x * 1.6f, m_rigidbody2D.velocity.y);
+
+				//Move Player up or down to compensate for the slope below them
+				//this.transform.position.y += -hit.normal.x * Mathf.Abs(m_rigidbody2D.velocity.x) * Time.deltaTime * (m_rigidbody2D.velocity.x-hit.normal.x>0?1:-1);
+			//	transform.position =  new Vector2(transform.position.x,  transform.position.y + -hit.normal.x * Mathf.Abs(m_rigidbody2D.velocity.x) * Time.deltaTime * (m_rigidbody2D.velocity.x-hit.normal.x>0?1:-1));
+			
+			}
+		//}
+
+
+
+	/*
+		if ( isGrounded ){
+				//Deal with slopes, baby!
+				
+				//Using raycast with layer mask to find ground beneath
+				RaycastHit2D hit = Physics2D.Raycast(this.transform.position, -Vector2.up,Mathf.Infinity,this.geometryMask);
+				if ( hit && Mathf.Abs(hit.normal.x) > 0.1f ) {
+					//Apply the opposite force against the slope force 
+					//Reduce normal factor by 0.6f to deal with surface's friction
+					this.rb2d.velocity.x -= hit.normal.x * 0.6f;
+					
+					//Move Player up or down to compensate for the slope below them
+					this.transform.position.y += -hit.normal.x * Mathf.Abs(this.rb2d.velocity.x) * Time.deltaTime * (this.rb2d.velocity.x-hit.normal.x>0?1:-1);
+				}
+			}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		//Debug.Log ("isGrounded:"+isGrounded);
 
 		hSpeed = Input.GetAxis("Horizontal");
 
